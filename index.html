@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Puzzle</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-rows: auto auto 1fr auto;
+            grid-gap: 20px;
+            font-family: Arial, sans-serif;
+            margin: 40px auto;
+            width: 600px;
+        }
+        header, main, footer {
+            padding: 20px;
+            border: 4px solid pink;
+            border-radius: 6px;
+            background-color: lightskyblue;
+        }
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+        }
+        footer {
+            text-align: center;
+        }
+        .puzzle-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 600px;
+            flex-wrap: wrap;
+        }
+        .puzzle-piece {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Name: Zlata</h1>
+        <p>Puzzle Name: Fish</p>
+    </header>
+    <main>
+        <div class="puzzle-container">
+            <img src="images/puzzle3_D.jpg" alt="Puzzle Piece" class="puzzle-piece">
+            <img src="images/puzzle3_A.jpg" alt="Puzzle Piece" class="puzzle-piece">
+            <img src="images/puzzle3_G.jpg" alt="Puzzle Piece" class="puzzle-piece">
+            <img src="images/puzzle3_J.jpg" alt="Puzzle Piece" class="puzzle-piece">
+            <img src="images/puzzle3_B.jpg" alt="Puzzle Piece" class="puzzle-piece">
+            <img src="images/puzzle3_C.jpg" alt="Puzzle Piece" class="puzzle-piece">
+            <img src="images/puzzle3_F.jpg" alt="Puzzle Piece" class="puzzle-piece">
+            <img src="images/puzzle3_I.jpg" alt="Puzzle Piece" class="puzzle-piece">
+            <img src="images/puzzle3_E.jpg" alt="Puzzle Piece" class="puzzle-piece">
+            <img src="images/puzzle3_H.jpg" alt="Puzzle Piece" class="puzzle-piece hidden">
+        </div>
+    </main>
+    <footer>
+        <p>Assignment Completion Date: April 20, 2025</p>
+    </footer>
+</body>
+</html>
